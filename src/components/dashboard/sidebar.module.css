@@ -1,0 +1,77 @@
+ .user__infoBoard {
+    height: 150px;
+    width: 284px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+   .user__infoBoard .userIcon__left {
+    height: 86px;
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B7B7B7;
+    color: #FFF;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+   .user__infoBoard .userInfo {
+    margin-left: 12px;
+  }
+   .user__infoBoard .userInfo a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 6px;
+    color: #000;
+    line-height: 20px;
+  }
+   .user__infoBoard .userInfo a.active {
+    color: #00A859;
+    font-size: 15px;
+    font-weight: 600;
+  }
+   .services__board {
+    width: 284px;
+    height: 317px;
+    padding: 33px 22px;
+    background: #fff;
+    margin-top: 31px;
+    border-radius: 5px;
+    text-align: center;
+  }
+   .services__board h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+  }
+   .services__board p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+   .services__board .service__img {
+    width: 100px;
+    margin: 0 auto;
+  }
+   .services__board .request_btn {
+    width: 140px;
+    margin-top: 15px;
+    height: 40px;
+    
+    background: #00A859;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }

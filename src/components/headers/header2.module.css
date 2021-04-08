@@ -1,0 +1,77 @@
+.header2 {
+    height: 41px;
+    border-top: 1px solid #99999980;
+    border-bottom: 1px solid #99999980;
+  }
+  
+  .header__wrapper {
+    padding: 0 123px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 41px;
+  }
+  .header__wrapper .header2__nav .header2__menu > li.active a {
+    color: #000;
+  }
+  .header__wrapper .header2__nav .header2__menu > li:not(:first-child) {
+    margin-left: 57px;
+  }
+  .header__wrapper .header2__nav .header2__menu a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .header__wrapper .header2__nav .header2__menu > li.has__submenu {
+    position: relative;
+  }
+  .header__wrapper .header2__nav .header2__menu > li.has__submenu .submenu__link {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    position: relative;
+    outline: none;
+    
+  }
+  .header__wrapper .header2__nav .header2__menu > li.has__submenu .submenu__link:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .header__wrapper .header2__nav .header2__menu > li.has__submenu .submenu__link::after {
+    position: absolute;
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    border: none;
+    margin-left: 5px;
+    top: 8px;
+    font-size: 16px;
+    
+  }
+  
+
+  .header__wrapper .sellBtn {
+    width: 109px;
+    height: 40px;
+    margin-top: -1px;
+    background: #00A859;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .header__wrapper .header2__nav .header2__menu {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
